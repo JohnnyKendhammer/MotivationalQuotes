@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchQuoteFragment">
+    <fragment
+        android:id="@+id/searchQuoteFragment"
+        android:name="com.example.motivationalquotes.view.SearchQuoteFragment"
+        android:label="SearchQuoteFragment"
+        tools:layout="@layout/fragment_search_quote"/>
+</navigation>
